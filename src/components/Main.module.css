@@ -5,7 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F0A500;
+    background-color: #F0A500   ;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-/*  */

@@ -7,6 +7,7 @@ const App = () =>{
     return(
         <div>
             <Main>
+            <h2>Enter your location</h2>
                 <Content/>
             </Main>
         </div>

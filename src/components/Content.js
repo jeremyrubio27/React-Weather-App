@@ -30,6 +30,7 @@ const Content = () => {
            <input type="text" className={styles.search} placeholder="Search" value={query} onChange={queryHandler} onKeyPress={search}/>
            {weather.list && (
                <div>
+                   <h2>Enter a location to check weather</h2>
                    <div className={styles.contentTemp}>
                         <h1>{Math.floor(weather.list[0].main.temp)}</h1>
                         <sup>&deg;C</sup>
