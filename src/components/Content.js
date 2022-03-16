@@ -30,7 +30,6 @@ const Content = () => {
            <input type="text" className={styles.search} placeholder="Search" value={query} onChange={queryHandler} onKeyPress={search}/>
            {weather.list && (
                <div>
-                   <h2>Enter a location to check weather</h2>
                    <div className={styles.contentTemp}>
                         <h1>{Math.floor(weather.list[0].main.temp)}</h1>
                         <sup>&deg;C</sup>
@@ -38,7 +37,7 @@ const Content = () => {
                    </div>
                    <h2 className={styles.descriptions}>{weather.list[0].weather[0].description}</h2>
                    <div className={styles.contentHeader}>
-                        <h1>{weather.list[0].name}</h1> 
+                        <h1>{weather.list[0].name}</h1> -
                         <span className={styles.country}>{weather.list[0].sys.country}</span>
                    </div>
                    
